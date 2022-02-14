@@ -54,5 +54,5 @@ func (m *Manager) RemoveFlag(flag uint64) {
 	}
 }
 
-// Flags will return the bit flags of the player.
+// Flags will return the bit flags of the manager.
 func (m *Manager) Flags() uint64 { return m.flags }
